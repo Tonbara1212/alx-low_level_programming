@@ -1,13 +1,13 @@
 #include <stdio.h>
 /** 
- * Main - Print a string *
+ * Main- Print a string using puts followed
+ *	 by a new line
+ *
  * Return: Always 0
  */
-int main()
+int main(void)
 {
-	char Mystr[] = "Programming is like building a multilingual puzzle";
-
-	puts(Mystr);	/*Write string to std output*/
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return 0;
 }
