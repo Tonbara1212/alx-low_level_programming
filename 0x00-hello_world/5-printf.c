@@ -1,12 +1,14 @@
 #include <stdio.h>
 /**
- * main: Prints a string of characters using printf
+ * main -  starts the main function
+ *
+ * Description: Prints a string using printf
  *
  * Return: Always 0
  */
 int main(void)
 {
-	printf("with proper grammer, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
 	return (0);
 }
