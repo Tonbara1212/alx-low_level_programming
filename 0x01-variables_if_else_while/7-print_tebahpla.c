@@ -1,24 +1,23 @@
-#include <stdlib.h>
 #include <stdio.h>
+
 
 /**
  * main - starts the main function
  *
- * Description: Using the putchar function t print 0-9
+ * Description: printing z-a
  *
  * Return: Always 0
  */
-
 int main(void)
 {
-	int x = 0;
+	char c;
 
-	while  (x <= '9')
+	c = 'z';
+	while (c >= 'a')
 	{
-		putchar(x);
-		x++;
+		putchar(c);
+		c--;
 	}
 	putchar('\n');
-
 	return (0);
 }
