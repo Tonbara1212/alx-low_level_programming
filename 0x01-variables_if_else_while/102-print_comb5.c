@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - starts the main function
+ * main - starts the main function
  *
  * Description: Print all possible combinations 0-9
  * in the form 00 00

@@ -3,13 +3,12 @@
 /**
  * main - starts the main function
  *
- * description: print three digit combinations of 0-9
+ * Description: print three digit combinations of 0-9
  * in ascending order with no repitions
  *
- * return: always 0
+ * Return: always 0
  */
 int main(void)
-	/* main body of main funtion*/
 {
 	int a, b, c;
 
