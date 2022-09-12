@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - starts the main function
+ * Main - starts the main function
  *
- * description: print combinations of 0-9
+ * Description: print two digit combinations of 0-9
+ * in ascending order and with no repititions
  *
- * return: always 0
+ * Return: always 0
  */
 int main(void)
-	/* Body of main funtion*/
 {
 	int a, b;
 

@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - starts the main function
+ * Main - starts the main function
  *
- * description: print combinations of 0-9
+ * Description: Print all possible combinations 0-9
+ * in the form 00 00
  *
- * return: always 0
+ * Return: Always 0
  */
 int main(void)
 {
