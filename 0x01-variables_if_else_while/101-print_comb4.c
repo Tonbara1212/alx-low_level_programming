@@ -3,7 +3,8 @@
 /**
  * main - starts the main function
  *
- * description: print combinations of 0-9
+ * description: print three digit combinations of 0-9
+ * in ascending order with no repitions
  *
  * return: always 0
  */
