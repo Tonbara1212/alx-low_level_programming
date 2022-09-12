@@ -8,6 +8,7 @@
  * return: always 0
  */
 int main(void)
+	/* Body of main funtion*/
 {
 	int a, b;
 
