@@ -16,6 +16,7 @@ int main(void)
 	{
 		b = '0';
 		while (b <= '9')
+
 		{
 			putchar(a);
 			putchar(b);
