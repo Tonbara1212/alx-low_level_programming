@@ -1,11 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: print lower case a-z
- *
- * Return: Always 0
+ * print_alphabet - print lowercase a-z
  */
 void print_alphabet(void)
 {
@@ -13,7 +9,7 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 
-		_putchar('c');
+		_putchar(c);
 
 	_putchar('\n');
 }
