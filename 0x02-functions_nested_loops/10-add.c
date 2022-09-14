@@ -8,7 +8,7 @@
   * 
   * Return: Sum of operands 
   */ 
- int add(int w, int x) 
+int add(int w, int x) 
  { 
          int sum; 
   
