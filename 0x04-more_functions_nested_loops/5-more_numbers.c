@@ -1,32 +1,24 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints a diagonal
- * @n: parameter
- * Return: nothing
+ * more_numbers - prints numbers to 14
+ * Return: Nothing
  */
 
-void print_diagonal(int n)
+void more_numbers(void)
 {
-	int len, int space;
+	int x, int y;
 
-	if (n > 0)
-	{
-		for (len = 0; len < n; len++)
+		for (x = 0; x < 10; x++)
 		{
-			for (space = 0; space < len; space++)
+			for (y = 0; y <= 14; y++)
 			{
-				_putchar(' ');
+				if (y > 9)
+				{
+					_putchar((y / 10) + '0');
+				}
+				_putchar((n2 / 10) + '0');
 			}
-			_putchar('\\');
-
-			if (len == (n - 1))
-			{
-				continue;
-			}
-
-			_putchar('\n');
+			_putchar(10);
 		}
-	}
-	_putchar('\n');
-			}
+}
