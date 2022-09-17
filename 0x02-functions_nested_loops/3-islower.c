@@ -2,7 +2,7 @@
 
 /**
  * _islower - check for lower case letters
- *
+ * @c: character in question
  * Return: Return 1 if character is lowercase; else return 0
  */
 int _islower(int c)
@@ -14,6 +14,6 @@ int _islower(int c)
 
 	else
 
-		return(0);
+		return (0);
 
 }
