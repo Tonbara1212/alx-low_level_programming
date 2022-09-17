@@ -2,11 +2,9 @@
 
 /**
  * add - sums 2 integers
- * @w: first integer
- * @x: second integer
- */
-
-int add(int w, int x)
+ * @num1: first integer
+ * @num2: second integer
+ */int add(int num1, int num2)
 {
-	return (w + x);
+	return (num1 + num2);
 }
