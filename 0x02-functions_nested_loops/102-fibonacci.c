@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	log int f, s, c, sum;
+	long int f, s, c, sum;
 
 	sum = 0;
 	f = 0;
